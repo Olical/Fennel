@@ -323,6 +323,7 @@ For more information about the language, see https://fennel-lang.org/reference")
                              : scope
                              :useMetadata opts.useMetadata
                              :moduleName opts.moduleName
+                             :compilerEnv (or opts.compiler-env opts.compilerEnv)
                              :assert-compile opts.assert-compile
                              :parse-error opts.parse-error
                              :useBitLib opts.useBitLib})
